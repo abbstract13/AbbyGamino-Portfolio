@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abby Gamino | Graphic Design Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#top">
+        <span class="logo-dot"></span>
+        Abby Gamino
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn btn-small">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main id="top" class="main">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="tag">Graphic Design • Motion Graphics • Web Development</p>
+        <h1>Clean, bold visuals that tell a story.</h1>
+        <p class="subhead">
+          I’m a designer focused on branding, layout, and motion—building work that’s sharp, modern, and easy to navigate.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#work">View Work</a>
+          <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+        </div>
+
+        <div class="mini-stats" aria-label="Highlights">
+          <div class="mini-card">
+            <p class="mini-title">Focus</p>
+            <p class="mini-value">Brand + Layout</p>
+          </div>
+          <div class="mini-card">
+            <p class="mini-title">Tools</p>
+            <p class="mini-value">Adobe + Visual Studio Code</p>
+          </div>
+          <div class="mini-card">
+            <p class="mini-title">Style</p>
+            <p class="mini-value">Clean + Modern</p>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="about">
+        <div>
+          <h2>About</h2>
+          <p>
+            With over five years of experience in the digital realm, I've dedicated my career to bridging the gap between design and development. My journey began with a fascination for how things work and evolved into a passion for making things work beautifully.
+
+            I believe that great design is invisible – it simply works. Every project I undertake is an opportunity to push boundaries, challenge conventions, and create something that not only looks stunning but delivers real value to users.
+
+            When I'm not crafting pixels or writing code, you'll find me traveling to new cities, contributing to open-source projects, or seeking inspiration in art galleries and nature. 
+          </p>
+          <p class="soft">
+      
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>Quick Details</h3>
+          <ul>
+            <li><strong>Specialties:</strong> Branding, Layout, Motion</li>
+            <li><strong>Tools:</strong> Illustrator, InDesign, After Effects, Photoshop, Visual Studio Code</li>
+            <li><strong>Available for:</strong> Freelance + Internships</li>
+          </ul>
+          <a class="btn btn-small" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="#work" class="section">
+      <div class="section-head">
+        <h2>Selected Work</h2>
+        <p></p>
+      </div>
+
+        <div class="grid">
+          <!-- Project 1 -->
+          <a class="project project-one porject-large" href="#" aria-label="Open project: Branding Concept">
+            <div class="thumb project-detail">
+              <!-- Replace with your image -->
+              <div class="project-images">
+               <img src="images/book_cover.jpg" alt="Project 1 image one">
+               <img src="images/final_book.jpg" alt="Project 1 image two">
+               <img src="images/illustrator_3CS.jpg" alt="Project 1 image three">
+               <img src="images/illustrator_CS.jpg" alt="Project 1 image four">
+               </div>
+             </div>
+            <div class="project-info">
+              <h3>Branding Concept</h3>
+              <p>Logo system + color palette + packaging mockups.</p>
+              <div class="chips">
+                <span>Branding</span><span>Illustrator</span>
+              </div>
+            </div>
+          </a>
+  
+          <!-- Project 2 -->
+          <a class="project project-medium" href="#" aria-label="Open project: Poster Series">
+            <div class="thumb">
+              <!-- <img src="images/project2.jpg" alt="Poster series preview" /> -->
+              <div class="stacked-images">
+                <img src="images/red_illenium_mag.jpg" alt="First design"> 
+                <img src="images/illenium_mag.jpg" alt="Second design">
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Magazine Series</h3>
+              <p>Typography-driven posters with clean grid layouts.</p>
+              <div class="chips">
+                <span>Print</span><span>Typography</span><span>InDesign</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+        
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p></p>
+      </div>
+
+      <div class="contact-cards">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p class="soft">abbstract1313@gmail.com</p>
+          <a class="btn btn-ghost" href="mailto:youremail@example.com">Send Email</a>
+        </div>
+
+        <div class="contact-card">
+          <h3>Social</h3>
+          <p class="soft">Instagram @abbstract13</p>
+          <div class="contact-actions">
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Abby Gamino • Designed in VS Code</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
