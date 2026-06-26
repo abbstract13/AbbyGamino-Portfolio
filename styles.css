@@ -336,6 +336,18 @@ img{ max-width: 100%; display:block; }
   object-fit: contain;
 }
 
+/* Project 3 only */
+.project-three .stacked-images {
+  gap: 0;      /* Space between images */
+               /* Space around the group of images */
+}
+
+.project-three .stacked-images img {
+  display: block;
+  margin: 0;
+}
+
+
 
 
 .project-info{
